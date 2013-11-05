@@ -42,13 +42,14 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
 
+/**************** Freeze Translate *******************/
 // example: '/en/about' -> use controller 'about'
-$route['^ru/(.+)$'] = "$1";
-$route['^en/(.+)$'] = "$1";
- 
+//$route['^ru/(.+)$'] = "$1";
+//$route['^en/(.+)$'] = "$1";
 // '/en' and '/ru' -> use default controller
-$route['^ru$'] = $route['default_controller'];
-$route['^en$'] = $route['default_controller'];
+//$route['^ru$'] = $route['default_controller'];
+//$route['^en$'] = $route['default_controller'];
+/*****************************************************/
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
