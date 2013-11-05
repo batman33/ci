@@ -2,7 +2,7 @@
 searchFile('admin/');
 function searchFile($path, $pattern = '*', $flags = 0, $depth = 0) {
 
-    $matches = array();
+    $matches = array(); 
 
     $folders = array(rtrim($path, DIRECTORY_SEPARATOR));
 
