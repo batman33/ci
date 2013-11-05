@@ -9,6 +9,8 @@ class Welcome extends MY_Controller {
         parent::__construct();
 
         $this->styles[] = 'home';
+
+        $this->lang->load('user');
     }
 
     public function index()
@@ -26,6 +28,8 @@ class Welcome extends MY_Controller {
 
     public function user()
     {
+        $this->title .= ' > User';
+
         $this->load->model('user');
 
         $iUserID = 4;

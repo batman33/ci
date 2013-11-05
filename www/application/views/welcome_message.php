@@ -10,7 +10,7 @@
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/welcome.php</code>
 
-		<?=anchor('/welcome/user', 'User');?>
+		<?=anchor('/'.$this->lang->lang().'/welcome/user', 'User');?>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
